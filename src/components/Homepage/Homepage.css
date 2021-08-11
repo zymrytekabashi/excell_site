@@ -1,0 +1,157 @@
+:root {
+    --midnight-blue: #11263d;
+    --sky-gray: #878787;
+  }
+  
+
+.video-container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    opacity: 1;
+}
+
+.video-container video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+}
+
+.hero-section {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.header-segment {
+    z-index:  50;
+}
+.header-segment h1 {
+    max-width: 80vw;
+    font-size: 4.5em;
+    color: #fff;
+    letter-spacing: .7em;
+    line-height: 1.7;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 11vw;
+}
+
+.video-overlay {
+    background: linear-gradient(transparent,#08131c 90%);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.excel-content {
+   background-color: #08131c;
+   display: flex;
+   justify-content: center;
+    height: 100vh;
+    color: #fff;
+    margin-top: -2px; 
+}
+
+.excel-content p {
+    width: 35vw;
+    font-size: 1.3em;
+    letter-spacing: .1em;
+    line-height: 1.6em;
+}
+.excel-content .content {
+    display: flex;
+    justify-content: center;
+    padding-top:2em;
+}
+
+.excel-content h2 {
+    font-size: 4em;
+    letter-spacing: .5em;
+    width: 40vw;
+    font-weight: 100;
+    line-height: 1.8em;
+    padding-left: 3em;
+}
+
+.excell-images{
+    background: linear-gradient(#08131c 50%, #fff 50% );
+   
+}
+
+.excell-images .images {
+    display: flex;
+    justify-content: space-between;
+}
+.excell-images .images img:nth-child(1) {
+  width: 45%;
+}
+.excell-images .images img:nth-child(2) {
+    width: 25%;
+    height: 70vh;
+    align-self: center;
+  }
+.excell-images .images img:nth-child(3) {
+    width: 25%;   
+}
+
+.three-rows-section {
+    padding: 11vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.excell-offers{
+      padding: 2vw 0;
+     
+}
+
+.excell-offers:nth-child(2) {
+      align-self: center;
+}
+
+.excell-offers h4 {
+      font-size: 2.2em;
+      font-weight: 100;
+      letter-spacing: .6em;
+      text-transform: uppercase;
+}
+  .excell-offers p {
+      font-size: 1.5em;
+      width: 30vw;
+}
+.inner {
+    width: 10%;
+    border-bottom: 1px solid var(--sky-gray);
+    height: 1px;
+    margin: 20px 0;
+}
+
+button.ui.button {
+    background: #fff;
+    border:1px solid var(--sky-gray);
+    border-radius: 30px;
+    width: 12vw;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color:#000;
+  }
+
+
+.gallery-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 50vh;
+}
+
+.gallery-container i.icon.instagram {
+    margin: auto;
+ }

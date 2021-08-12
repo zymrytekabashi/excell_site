@@ -1,60 +1,71 @@
 .ui.form .field > label {
-    color: #fff !important;
-    font-size: 16px !important;
-    padding-bottom: 10px;
-  }
-  
-  input.subscribe-input {
-    border-radius: 20px 0 0px 20px !important;
-    background-color: #222222 !important;
-    flex-grow: 2 !important;
-  }
-  
-  div.ui.action.input {
-    border-radius: 20px !important;
-    display: flex !important;
-    flex-direction: row !important;
-  }
-  
-  div.ui.button {
-    background: #222222 !important;
-    border: 1px solid #878787 !important;
-    border-radius: 20px !important;
-    margin-left: -10px !important;
-    color: #fff;
-    font-weight: 100;
-  }
-  .footer-logo {
-    width: 17em;
-  }
-  
-  div.ui.segment {
-    background-color: #000;
-  }
-  
-  div.ui.equal.width.grid p {
-    color: #5f6262;
-  }
-  
-  .footer-icons i {
-    padding-right: 60px;
-  }
-  
-  .footer-container {
-    background-color: #000;
-    color: #fff;
-    padding: 6em 11.5em;
-  }
-  
-  .footer-grid {
-    padding-right: 6em !important;
-  }
-  
+  color: #fff !important;
+  font-size: 16px !important;
+  padding-bottom: 10px;
+}
+
+input.subscribe-input {
+  border-radius: 20px 0 0px 20px !important;
+  background-color: #222222 !important;
+  flex-grow: 2 !important;
+}
+
+div.ui.action.input {
+  border-radius: 20px !important;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+div.ui.button {
+  background: #222222 !important;
+  border: 1px solid #878787 !important;
+  border-radius: 20px !important;
+  margin-left: -10px !important;
+  color: #fff;
+  font-weight: 100;
+}
+.footer-logo {
+  width: 17em;
+}
+
+div.ui.segment {
+  background-color: #000;
+}
+
+.footer-icons i {
+  padding-right: 60px;
+}
+
+.footer-container {
+  background-color: #000;
+  color: #fff;
+  /* height: 80vh; */
+  padding: 4vw 11vw;
+}
+
 .footer-container p {
-    font-size: 15px;
+  font-size: 0.9vw;
+  color: rgba(255, 255, 255, 0.521);
 }
 
 .ui.list.item {
-    font-weight: 100;
-    line-height: 1em;
+  font-weight: 100;
+  line-height: 1em;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 4vw 0;
+}
+
+.menu-footer li {
+  list-style: none;
+  font-size: 0.9vw;
+  font-weight: 100;
+  line-height: 1.5vw;
+}
+
+.menu-footer {
+  padding-right: 5vw;
 }

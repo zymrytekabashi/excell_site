@@ -1,30 +1,60 @@
+:root {
+  --midnight-blue: #11263d;
+  --sky-gray: #878787;
+}
+
 div.ui.inverted.segment {
-    margin: 0;
-    border-radius: 0;
-    color: #fff;
-    top: 0;
-    width: 100%;
-    background-color: #000;
-    opacity: 0.9;
-position: fixed;
-    z-index: 99;
-    left: 0;
-  }
-  
-  .ui.secondary.inverted.pointing.menu .item {
-    font-family: Avenir-Light, Courier, monospace !important;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-size: 15px;
-  }
-  
-  .ui.secondary.inverted.pointing.menu .active.item {
-    border: none;
-    margin: 0;
-  }
-  
-  .ui.secondary.inverted.pointing.menu {
-    padding: 1em 3em;
-    border: none;
-  }
-  
+  margin: 0;
+  border-radius: 0;
+  color: #fff;
+  top: 0;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.95;
+  z-index: 99;
+  left: 0;
+  position: relative;
+}
+
+.ui.secondary.inverted.pointing.menu .item {
+  font-family: Avenir-Light, Courier, monospace !important;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.ui.secondary.inverted.pointing.menu .active.item {
+  border: none;
+  margin: 0;
+}
+
+.ui.secondary.inverted.pointing.menu {
+  padding: 1em 3em;
+  border: none;
+}
+.ui.dropdown .menu > .item {
+  display: inline !important;
+  text-transform: uppercase !important;
+  font-size: 0.8vw !important;
+  color: #fff !important;
+  letter-spacing: 0.5vw;
+  align-self: center;
+}
+
+.ui.dropdown .menu {
+  width: 100%;
+  background: var(--sky-gray) !important;
+  padding: 1.3vw !important;
+}
+
+.ui.fluid.dropdown {
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  display: flex !important ;
+  justify-content: center;
+}
+
+.ui.fluid.dropdown > .dropdown.icon {
+  line-height: 2;
+}

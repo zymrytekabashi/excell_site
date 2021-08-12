@@ -44,11 +44,11 @@ const Homepage = () => {
                 <div className='excell-offers'>
                     <div >
 
-                        <h4 data-scroll data-scroll-speed='1' data-scroll-direction='horizontal'>Business Charter</h4>
-                        <div className='inner' data-scroll-delay='1' data-scroll data-scroll-speed='-1' data-scroll-direction='horizontal'></div>
+                        <h4 data-scroll data-scroll-speed='1.5' data-scroll-direction='horizontal' data-scroll-delay='0.3'>Business Charter</h4>
+                        <div className='inner' data-scroll-delay='0.5' data-scroll data-scroll-speed='1' data-scroll-direction='horizontal'></div>
 
-                        <p data-scroll data-scroll-speed='-1' data-scroll-delay='0.5' data-scroll-direction='horizontal'>Excel Charter offers a sale, cost-effective and highly convenient point-to-point travel option</p>
-                        <Button data-scroll data-scroll-speed='1' data-scroll-direction='horizontal'>Read more</Button>
+                        <p data-scroll data-scroll-speed='0.5' data-scroll-delay='0.7' data-scroll-direction='horizontal'>Excel Charter offers a sale, cost-effective and highly convenient point-to-point travel option</p>
+                        <Button data-scroll data-scroll-speed='0' data-scroll-delay='0.9' data-scroll-direction='horizontal'>Read more</Button>
 
                     </div>
 
@@ -56,22 +56,22 @@ const Homepage = () => {
                 <div className='excell-offers'>
                     <div>
 
-                        <h4 data-scroll data-scroll-speed='1' data-scroll-direction='horizontal'>Private Hire</h4>
-                        <div className='inner' data-scroll-delay='1' data-scroll data-scroll-speed='-1' data-scroll-direction='horizontal'></div>
+                        <h4 data-scroll data-scroll-speed='1.5' data-scroll-direction='horizontal' data-scroll-delay='0.3'>Private Hire</h4>
+                        <div className='inner' data-scroll-delay='0.5' data-scroll data-scroll-speed='0.5' data-scroll-direction='horizontal'></div>
 
-                        <p data-scroll data-scroll-speed='-1' data-scroll-direction='horizontal' data-scroll-delay='0.5'> From short pleasure flights to large corporate events, Excel Charter have the range of helicopters and knowledge to cater for your requirements.</p>
-                        <Button data-scroll data-scroll-speed='1' data-scroll-direction='horizontal'>Read more</Button>
+                        <p data-scroll data-scroll-speed='0.5' data-scroll-direction='horizontal' data-scroll-delay='0.7'> From short pleasure flights to large corporate events, Excel Charter have the range of helicopters and knowledge to cater for your requirements.</p>
+                        <Button data-scroll data-scroll-speed='0' data-scroll-direction='horizontal' data-scroll-delay='0.9'>Read more</Button>
 
                     </div>
                 </div>
                 <div className='excell-offers'>
                     <div>
 
-                        <h4 data-scroll data-scroll-speed='1' data-scroll-direction='horizontal'>Airports Transfers </h4>
-                        <div className='inner' data-scroll-delay='1' data-scroll data-scroll-speed='-1' data-scroll-direction='horizontal'></div>
+                        <h4 data-scroll data-scroll-speed='1' data-scroll-direction='horizontal' data-scroll-delay='0.3'>Airports Transfers </h4>
+                        <div className='inner' data-scroll-delay='0.5' data-scroll data-scroll-speed='0.5' data-scroll-direction='horizontal'></div>
 
-                        <p data-scroll data-scroll-speed='-1' data-scroll-direction='horizontal' data-scroll-delay='0.5'>Excel Charter's fleet of Twin Squirrels and Augusta 109s, together with full-time pilots enable us to offer the onward helicopter transfer.</p>
-                        <Button data-scroll data-scroll-speed='1' data-scroll-direction='horizontal'>Read more</Button>
+                        <p data-scroll data-scroll-speed='0.5' data-scroll-direction='horizontal' data-scroll-delay='0.7'>Excel Charter's fleet of Twin Squirrels and Augusta 109s, together with full-time pilots enable us to offer the onward helicopter transfer.</p>
+                        <Button data-scroll data-scroll-speed='0' data-scroll-direction='horizontal' data-scroll-delay='0.9'>Read more</Button>
 
                     </div>
                 </div>
@@ -83,10 +83,10 @@ const Homepage = () => {
 
                     <ImageGroup size='medium'>
 
-                        <Image src={Helicopter} data-scroll data-scroll-direction='vertical' data-scroll-speed='1.5' />
-                        <Image src={City} data-scroll data-scroll-direction='vertical' data-scroll-speed='1' data-scroll-delay='0.5' />
-                        <Image src={Work} data-scroll data-scroll-direction='vertical' data-scroll-speed='0.5' />
-                        <Image src={Helicopter} data-scroll data-scroll-direction='vertical' data-scroll-speed='1.5' data-scroll-delay='0.5' />
+                        <Image src={Helicopter} data-scroll data-scroll-direction='horizontal' data-scroll-speed='1.5' />
+                        <Image src={City} data-scroll data-scroll-direction='horizontal' data-scroll-speed='1' data-scroll-delay='0.5' />
+                        <Image src={Work} data-scroll data-scroll-direction='horizontal' data-scroll-speed='0.5' />
+                        <Image src={Helicopter} data-scroll data-scroll-direction='horizontal' data-scroll-speed='1' data-scroll-delay='0.5' />
 
                     </ImageGroup>
                 </div>

@@ -1,15 +1,30 @@
-import { Menu, Segment, Icon, } from 'semantic-ui-react';
+import { Menu, Segment, Icon, Dropdown } from 'semantic-ui-react';
+import { useState } from 'react';
 import './Navbar.css';
 import Logo from '../../assets/images/excel_logo_white.svg';
 import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false)
+
     return (
         <div className='navbar-container'>
-            <Segment inverted>
-                <Menu inverted pointing secondary>
+            <Segment inverted onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)} >
+                <Dropdown className='link item' open={isOpen} fluid >
+                    <Dropdown.Menu>
+                        <Dropdown.Item>Charts</Dropdown.Item>
+                        <Dropdown.Item>Special Operations</Dropdown.Item>
+                        <Dropdown.Item>Maintance & Engineering</Dropdown.Item>
+                        <Dropdown.Item>Sales</Dropdown.Item>
+                        <Dropdown.Item>Management</Dropdown.Item>
+                        <Dropdown.Item>Pilot Training</Dropdown.Item>
+                        <Dropdown.Item>Our fleet</Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
+                <Menu inverted pointing secondary className='menu' fixed>
                     <img src={Logo} alt='' width="150" />
+
                     <Menu.Menu position='right'>
                         <Menu.Item
                             name='home'
@@ -41,6 +56,7 @@ const Navbar = () => {
 
                     </Menu.Menu>
                 </Menu>
+
             </Segment>
         </div>
     )

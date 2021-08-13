@@ -13,7 +13,6 @@ div.ui.inverted.segment {
   opacity: 0.95;
   z-index: 99;
   left: 0;
-  position: relative;
 }
 
 .ui.secondary.inverted.pointing.menu .item {
@@ -29,7 +28,7 @@ div.ui.inverted.segment {
 }
 
 .ui.secondary.inverted.pointing.menu {
-  padding: 1em 3em;
+  padding: 1vw 6vw;
   border: none;
 }
 .ui.dropdown .menu > .item {

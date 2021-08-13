@@ -19,6 +19,7 @@ function App() {
           smooth: true,
         }
       }
+
       containerRef={containerRef}
     >
       <Container fluid data-scroll-container ref={containerRef}>

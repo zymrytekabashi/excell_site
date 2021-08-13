@@ -16,13 +16,18 @@ const Homepage = () => {
         <div data-scroll-section>
             <div className='hero-section' >
                 <div className='header-segment'>
-                    <h1 data-scroll data-scroll-direction='horizontal' data-scroll-speed='3' data-scroll-position='left'>Precision & excellence in the skies</h1>
+                    <h1 data-scroll data-scroll-direction='horizontal' data-scroll-speed='3' data-scroll-position='top' data-scroll-delay='0.2'>Precision & excellence in the skies</h1>
                 </div>
                 <div className='video-container'>
                     <div className='video-overlay'></div>
                     <video autoPlay muted loop>
                         <source src={Hero_Video} />
                     </video>
+                </div>
+            </div>
+            <div className='divider-container'>
+                <div className='divider'>
+                    <span></span>
                 </div>
             </div>
             <div className='excel-content'>
@@ -78,15 +83,15 @@ const Homepage = () => {
             </div>
 
             <div className='gallery-container' >
-                <Icon name="instagram" size="huge" data-scroll data-scroll-direction='horizontal' data-scroll-speed='1.5' />
+                <Icon name="instagram" size="huge" data-scroll data-scroll-direction='vertical' data-scroll-speed='1' />
                 <div className='gallery'>
 
                     <ImageGroup size='medium'>
 
-                        <Image src={Helicopter} data-scroll data-scroll-direction='horizontal' data-scroll-speed='1.5' />
-                        <Image src={City} data-scroll data-scroll-direction='horizontal' data-scroll-speed='1' data-scroll-delay='0.5' />
-                        <Image src={Work} data-scroll data-scroll-direction='horizontal' data-scroll-speed='0.5' />
-                        <Image src={Helicopter} data-scroll data-scroll-direction='horizontal' data-scroll-speed='1' data-scroll-delay='0.5' />
+                        <Image src={Helicopter} data-scroll data-scroll-direction='vertical' data-scroll-speed='1.5' />
+                        <Image src={City} data-scroll data-scroll-direction='vertical' data-scroll-speed='1' data-scroll-delay='0.5' />
+                        <Image src={Work} data-scroll data-scroll-direction='vertical' data-scroll-speed='0.5' />
+                        <Image src={Helicopter} data-scroll data-scroll-direction='vertical' data-scroll-speed='1' data-scroll-delay='0.5' />
 
                     </ImageGroup>
                 </div>

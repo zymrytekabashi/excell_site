@@ -39,18 +39,18 @@ const Contact = () => {
             <div className='form-container'>
                 <Form fluid >
                     <Form.Field >
-                        <Form.Input placeholder='Name*' data-scroll data-scroll-direction='horizontal' data-scroll-speed='1' data-scroll-delay='0.3' />
+                        <Form.Input placeholder='Name*' data-scroll data-scroll-direction='vertical' data-scroll-speed='1.5' data-scroll-delay='0.2' />
                     </Form.Field>
                     <Form.Field className='input-field'  >
-                        <Form.Input placeholder='Email*' data-scroll data-scroll-direction='horizontal' data-scroll-speed='1' data-scroll-delay='0.5' />
+                        <Form.Input placeholder='Email*' data-scroll data-scroll-direction='vertical' data-scroll-speed='1' data-scroll-delay='0.4' />
                     </Form.Field>
                     <Form.Field className='input-field' >
-                        <Form.Input placeholder='Contact Number' data-scroll data-scroll-direction='horizontal' data-scroll-speed='1.5' data-scroll-delay='0.3' />
+                        <Form.Input placeholder='Contact Number' data-scroll data-scroll-direction='vertical' data-scroll-speed='0.5' data-scroll-delay='0.6' />
                     </Form.Field>
                     <Form.Field className='input-field' >
-                        <TextArea placeholder="Message" data-scroll data-scroll-direction='horizontal' data-scroll-speed='2' dta-scroll-delay='0.3' />
+                        <TextArea placeholder="Message*" data-scroll data-scroll-direction='vertical' data-scroll-speed='0' dta-scroll-delay='0.8' />
                     </Form.Field>
-                    <Button type='submit' data-scroll data-scroll-direction='horizontal' data-scroll-delay='1' data-scroll-speed='2.5' >Send</Button>
+                    <Button type='submit' data-scroll data-scroll-direction='vertical' data-scroll-delay='1' data-scroll-speed='0' >Send</Button>
                 </Form>
             </div>
         </div>

@@ -7,16 +7,16 @@ import City from '../../assets/images/city.jpg';
 import Work from '../../assets/images/work.jpg';
 import { Button, ImageGroup, Image, Icon } from 'semantic-ui-react';
 import './Homepage.css';
-import { useLocomotiveScroll } from 'react-locomotive-scroll'
 
 
 const Homepage = () => {
-    const { scroll } = useLocomotiveScroll()
+
     return (
+
         <div data-scroll-section>
             <div className='hero-section' >
-                <div className='header-segment'>
-                    <h1 data-scroll data-scroll-direction='horizontal' data-scroll-speed='3' data-scroll-position='top' data-scroll-delay='0.2'>Precision & excellence in the skies</h1>
+                <div className='header-segment' data-scroll>
+                    <h1 data-scroll-speed="3" data-scroll-position="top">Precision & excellence in the skies</h1>
                 </div>
                 <div className='video-container'>
                     <div className='video-overlay'></div>
@@ -32,7 +32,7 @@ const Homepage = () => {
             </div>
             <div className='excel-content'>
                 <div className='content'>
-                    <p data-scroll data-scroll-speed='1' data-scroll-direction='vertical' data-scroll-delay='0.5' >Excel Helicopters provide charter flights from any UK. location. Whether business or pleasure, helicopter charter or private helicopter hire is the most time-efficient and memorable way to travel.</p>
+                    <p data-scroll data-scroll-speed='1' data-scroll-direction='vertical' data-scroll-delay='0.5' data-scroll-offset="100" >Excel Helicopters provide charter flights from any UK. location. Whether business or pleasure, helicopter charter or private helicopter hire is the most time-efficient and memorable way to travel.</p>
                     <h2 data-scroll data-scroll-speed='-1' data-scroll-direction='vertical'>EXCEL HELICOPTER CHARTER</h2>
                 </div>
             </div>
@@ -82,22 +82,23 @@ const Homepage = () => {
                 </div>
             </div>
 
-            <div className='gallery-container' >
+            <div className='gallery-container' data-scroll data-scroll-speed="4">
                 <Icon name="instagram" size="huge" data-scroll data-scroll-direction='vertical' data-scroll-speed='1' />
                 <div className='gallery'>
 
                     <ImageGroup size='medium'>
 
-                        <Image src={Helicopter} data-scroll data-scroll-direction='vertical' data-scroll-speed='1.5' />
-                        <Image src={City} data-scroll data-scroll-direction='vertical' data-scroll-speed='1' data-scroll-delay='0.5' />
-                        <Image src={Work} data-scroll data-scroll-direction='vertical' data-scroll-speed='0.5' />
-                        <Image src={Helicopter} data-scroll data-scroll-direction='vertical' data-scroll-speed='1' data-scroll-delay='0.5' />
+                        <Image src={Helicopter} data-scroll data-scroll-delay="0.13" data-scroll-speed="6" />
+                        <Image src={City} data-scroll data-scroll-delay="0.11" data-scroll-speed="6" />
+                        <Image src={Work} data-scroll data-scroll-delay="0.9" data-scroll-speed="6" />
+                        <Image src={Helicopter} data-scroll data-scroll-delay="0.7" data-scroll-speed="6" />
 
                     </ImageGroup>
                 </div>
             </div>
 
         </div>
+
     )
 
 }

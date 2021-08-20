@@ -1,11 +1,9 @@
 
-import { Grid, Icon, Image, Form, List, Segment } from 'semantic-ui-react';
+import { Icon, Image, Form, } from 'semantic-ui-react';
 import './Footer.css';
 import Logo from '../../assets/images/excel_logo_white.svg';
-import { useLocomotiveScroll } from 'react-locomotive-scroll'
 
 const Footer = () => {
-    const { scroll } = useLocomotiveScroll()
 
     return (
         <div className='footer-container' data-scroll-section>

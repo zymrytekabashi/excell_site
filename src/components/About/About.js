@@ -1,9 +1,8 @@
 import Hero_Video from '../../assets/videos/Excel_Hero_v1.2.mp4';
-import { useLocomotiveScroll } from 'react-locomotive-scroll';
 
 
 const About = () => {
-    const { scroll } = useLocomotiveScroll()
+
 
     return (
         <div data-scroll-section>

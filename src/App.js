@@ -9,8 +9,8 @@ import About from './components/About/About';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import { useRef } from 'react';
 
-function App() {
-  const containerRef = useRef(null)
+const App = () => {
+  const containerRef = useRef(+null)
 
   return (
     <LocomotiveScrollProvider
@@ -19,10 +19,13 @@ function App() {
           smooth: true,
         }
       }
+      watch={
+        []
+      }
 
       containerRef={containerRef}
     >
-      <Container fluid data-scroll-container ref={containerRef}>
+      <Container fluid data-scroll-container refs={containerRef}>
         <Router>
           <Navbar />
           <Route

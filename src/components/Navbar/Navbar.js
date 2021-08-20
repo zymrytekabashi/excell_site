@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <div className='navbar-container'>
-            <Segment inverted onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}  >
+            <Segment inverted onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)} fixed='top' >
                 <Dropdown className='link item' open={isOpen} fluid >
                     <Dropdown.Menu>
                         <Dropdown.Item>Charts</Dropdown.Item>
@@ -22,7 +22,7 @@ const Navbar = () => {
                         <Dropdown.Item>Our fleet</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
-                <Menu inverted pointing secondary className='menu' fixed >
+                <Menu inverted pointing secondary className='menu'  >
                     <img src={Logo} alt='' width="150" />
 
                     <Menu.Menu position='right'>
@@ -40,7 +40,7 @@ const Navbar = () => {
                         />
                     </Menu.Menu>
 
-                    <Menu.Menu position='right' icon >
+                    <Menu.Menu position='right' icon='true'>
                         <Menu.Item>
                             <Icon name='twitter' />
                         </Menu.Item>

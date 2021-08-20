@@ -137,6 +137,7 @@ button.ui.button {
   font-size: 1.2em;
   text-transform: uppercase;
   color: #000;
+  margin-top: 1vw;
 }
 
 .gallery-container {

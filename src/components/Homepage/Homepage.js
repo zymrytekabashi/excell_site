@@ -32,14 +32,14 @@ const Homepage = () => {
             </div>
             <div className='excel-content'>
                 <div className='content'>
-                    <p data-scroll data-scroll-speed='1' data-scroll-direction='vertical' data-scroll-delay='0.5' data-scroll-offset="100" >Excel Helicopters provide charter flights from any UK. location. Whether business or pleasure, helicopter charter or private helicopter hire is the most time-efficient and memorable way to travel.</p>
-                    <h2 data-scroll data-scroll-speed='-1' data-scroll-direction='vertical'>EXCEL HELICOPTER CHARTER</h2>
+                    <p data-scroll data-scroll-speed='5' data-scroll-direction='vertical' data-scroll-delay='0.5' data-scroll-offset="100" >Excel Helicopters provide charter flights from any UK. location. Whether business or pleasure, helicopter charter or private helicopter hire is the most time-efficient and memorable way to travel.</p>
+                    <h2 data-scroll data-scroll-speed='1' data-scroll-direction='vertical'>EXCEL HELICOPTER CHARTER</h2>
                 </div>
             </div>
             <div className='excell-images'>
                 <div className='images'>
                     <img src={Goxl} alt='' data-scroll data-scroll-speed='1.5' />
-                    <img src={Pilot} alt='' data-scroll data-scroll-speed='-2' />
+                    <img src={Pilot} alt='' data-scroll data-scroll-speed='6' data-scroll-delay='0.5' />
                     <img src={London} alt='' data-scroll data-scroll-speed='1' data-scroll-delay='0.5' />
 
                 </div>
